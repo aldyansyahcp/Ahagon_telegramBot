@@ -15,6 +15,19 @@
     <a href="https://github.com/aldyansyahcp/Ahagon_telegramBot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/kroemen/bot_telegram?style=flat-square"></a>
 </p>
 
+## Installation
+```
+$git clone https://github.com/aldyansyahcp/Ahagon_telegramBot
+$cd Ahagon_telegramBot
+$pip install -r requirements.txt
+$python bot-scrap.py
+```
+## How to Use
+```
+- open telegram & find telegram usrname @donlod_animbot
+- use /help for the command
+- write /cari for find anime download link
+```
 ## Introduction
 ```
 - This Bot make with pytelegrambotapi(telebot)
