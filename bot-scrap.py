@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 import datetime
 
-api = "5131229412:AAEMk2nkxlkG_ZoY9vG91E8ljcmusQqTCwA"
+api = "Your TelegramBot Api"
 bot = telebot.TeleBot(api)
 now = datetime.datetime.now()
 date = now.strftime("%B-%m-%Y, %H:%M")
