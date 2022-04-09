@@ -7,7 +7,7 @@
 <a href="https://github.com/aldyansyahcp"><img title="Author" src="https://img.shields.io/badge/Author-Aldyansyahcp-blue?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-    <a href="https://github.com/aldyansyahcp/tab=followers"><img title="Followers" src=https://img.shields.io/github/followers/NazwaS?style=flat-square"></a>
+    <a href="https://github.com/aldyansyahcp?tab=followers"><img title="Followers" src=https://img.shields.io/github/followers/NazwaS?style=flat-square"></a>
     <a href="#"><img title="repo size" src="https://img.shields.io/github/repo-size/aldyansyahcp/Ahagon_telegramBot?style=flat-square"></a>
     </br>
     <a href="https://github.com/aldyansyahcp/Ahagon_telegramBot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/kroemen/bot_telegram?style=flat-square"></a>
