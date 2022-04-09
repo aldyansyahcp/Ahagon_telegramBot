@@ -8,7 +8,7 @@ from flask import Flask,request
 import re
 
 #key_secret = "devour789"
-api = "5131229412:AAEMk2nkxlkG_ZoY9vG91E8ljcmusQqTCwA"
+api = "Your Bot Api"
 #url = "http://aldyansahcp.pythonanywhere.com/"+key_secret
 bot = telebot.TeleBot(api, threaded=False)
 #bot.remove_webhook()
