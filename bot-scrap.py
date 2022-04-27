@@ -1,5 +1,9 @@
-from PIL import Image
-from io import BytesIO
+#coding utf-8
+#Author Aldyansyahcp
+#start march 20
+#compelete april 16
+#version 1.2
+#merubah nama author/ merecode tidak membuatmu lebih tinggi dari sekarang
 import telebot
 import requests
 from bs4 import BeautifulSoup as bs
