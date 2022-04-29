@@ -12,7 +12,7 @@ from flask import Flask,request
 import re
 
 #key_secret = "devour789"
-api = "5131229412:AAEMk2nkxlkG_ZoY9vG91E8ljcmusQqTCwA"
+api = "YOUR BOT API"
 #url = "http://aldyansahcp.pythonanywhere.com/"+key_secret
 bot = telebot.TeleBot(api, threaded=False)
 #bot.remove_webhook()
@@ -67,7 +67,7 @@ def two(msg):
     try:
         cet = msg.chat.id
         tek = "".join(msg.text)
-        url = "https://otakudesu.site/?s={}&post_type=anime".format(tek)
+        url = "https://otakudesu.tube/?s={}&post_type=anime".format(tek)
         resj = ""
         res = []
         n=1
