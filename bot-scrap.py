@@ -1,4 +1,4 @@
-#coding utf-8
+#coding=utf-8
 #Author Aldyansyahcp
 #version 1.2
 import telebot
