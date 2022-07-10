@@ -35,7 +35,7 @@ def selamat_datang(msg):
     ma = msg.chat.last_name
     cet = msg.chat.id
     print(f"welcome\nname: {na} {ma}")
-    bot.reply_to(msg,f'{date}\nようこそ {na} {ma} id: {cet} i hope you will enjoyed in here\nThie Bot Created with Python\ntype /help for the command\nAuthor: @rup_23\nFB: Rere Kurniawan')
+    bot.reply_to(msg,f'{date}\nようこそ {na} {ma} id: {cet} i hope you will enjoyed in here\nThie Bot Created with Python\ntype /help for the command\nAuthor: @rup_23\nFB: AC Putranto/Rere Kurniawan')
 
 @bot.message_handler(commands=["help"])
 def helep(msg):
