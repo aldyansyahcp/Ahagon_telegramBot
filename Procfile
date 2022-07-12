@@ -1,2 +1,2 @@
-worker: python main.py
-web: python main.py
+worker: python remain.py
+web: python remain.py
