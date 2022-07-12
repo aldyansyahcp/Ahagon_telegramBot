@@ -29,6 +29,7 @@ def login(msg):
     log_bot = open('log_bot.txt', 'a')
     log_bot.write(text_log)
     login(msg)
+      
 @bot.message_handler(commands=["start"])
 def selamat_datang(msg):
     na = msg.chat.first_name
