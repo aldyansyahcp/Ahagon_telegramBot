@@ -342,7 +342,7 @@ def getmew():
 def webhook():
     try:
         bot.remove_webhook()
-        bot.set_webhook(url='https://ahagontele-test.herokuapp.com/' + api)
+        bot.set_webhook(url='https://ahagonbot-tele.herokuapp.com/' + api)
         res = "<h1><center><b>BOT STARTED</b></center></h1>", 200
     except Exception as e:
         res = "<h1>False</h1><br>{}".format(e), 404
