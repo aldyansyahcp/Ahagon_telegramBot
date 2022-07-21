@@ -351,7 +351,7 @@ def webhook():
 if __name__ == "__main__":
     print("\n\tBOT.STARTED",date)
     print(bot.get_me(),"\n")
-    bot.get_updates()
+    #bot.get_updates()
     #bot.remove_webhook()
     #bot.infinity_polling(interval=0, timeout=20)
     app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
