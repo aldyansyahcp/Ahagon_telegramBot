@@ -13,6 +13,8 @@
     <a href="https://github.com/aldyansyahcp/Ahagon_telegramBot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/kroemen/bot_telegram?style=flat-square"></a>
     <a href="https://github.com/aldyansyahcp/Ahagon_telegramBot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/kroemen/bot_telegram?style=flat-square"></a>
     <a href="https://github.com/aldyansyahcp/Ahagon_telegramBot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/kroemen/bot_telegram?style=flat-square"></a>
+    <a href="https://github.com/aldyansyahcp/Ahagon_telegramBot/tree/master"><img title="Branch master"
+src="https://img.shields.io/badge/Branch-master%20-blue"></a>
 </p>
 
 ## How to Use
