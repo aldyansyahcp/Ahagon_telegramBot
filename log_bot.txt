@@ -1,0 +1,6 @@
+NAMA = acpt 流れ星 None, ID = 986207371, cari_anime = nanatsu
+NAMA = acpt 流れ星 None, ID = 986207371, cari_anime = /cari
+NAMA = acpt 流れ星 None, ID = 986207371, cari_anime = nanatsu
+NAMA = acpt 流れ星 None, ID = 986207371, cari_anime = nanatsu
+NAMA = acpt 流れ星 None, ID = 986207371, cari_anime = nanatsu
+NAMA = acpt 流れ星 None, ID = 986207371, cari_anime = nanatsu
