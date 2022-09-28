@@ -72,13 +72,13 @@ def two(msg):
         cek = []
         n=1
         req = ses.get(url, headers=headers)
-        #print(end=f"\n\t{headers['User-Agent']}\n")
+        print(req)
         bes = bs(req.text, "html.parser")
+        print(bes.prettify())
         nam = bes.find("li", attrs={"style":"list-style:none;"})
         print(nam)
-        #if nam is None:
-            #bot.reply_to(msg, "Pencarianmu tidak ada hasil", reply_markup=inbut)
-        if " " in tek:
+        if nam is None:
+            bot.reply_to(msg, "Pencarianmu tidak ada hasil", reply_markup=inbut)
             markup = types.ReplyKeyboardMarkup(one_time_keyboard=True,resize_keyboard=False)
             resj += "Hasil pencarianmu max 15\n"
             nam = bes.find_all("li", attrs={"style":"list-style:none;"})
