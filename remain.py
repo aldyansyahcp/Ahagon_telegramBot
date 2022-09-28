@@ -71,8 +71,7 @@ def two(msg):
         res = []
         cek = []
         n=1
-        req = ses.get(url, headers=headers)
-        print(req)
+        req = ses.post(url, headers=headers)
         bes = bs(req.text, "html.parser")
         print(bes.prettify())
         nam = bes.find("li", attrs={"style":"list-style:none;"})
