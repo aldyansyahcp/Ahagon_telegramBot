@@ -78,7 +78,7 @@ def two(msg):
         print(nam)
         #if nam is None:
             #bot.reply_to(msg, "Pencarianmu tidak ada hasil", reply_markup=inbut)
-        else:
+        if " " in tek:"
             markup = types.ReplyKeyboardMarkup(one_time_keyboard=True,resize_keyboard=False)
             resj += "Hasil pencarianmu max 15\n"
             nam = bes.find_all("li", attrs={"style":"list-style:none;"})
