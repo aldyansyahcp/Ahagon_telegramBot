@@ -75,8 +75,9 @@ def two(msg):
         #print(end=f"\n\t{headers['User-Agent']}\n")
         bes = bs(req.text, "html.parser")
         nam = bes.find("li", attrs={"style":"list-style:none;"})
-        if nam is None:
-            bot.reply_to(msg, "Pencarianmu tidak ada hasil", reply_markup=inbut)
+        print(nam)
+        #if nam is None:
+            #bot.reply_to(msg, "Pencarianmu tidak ada hasil", reply_markup=inbut)
         else:
             markup = types.ReplyKeyboardMarkup(one_time_keyboard=True,resize_keyboard=False)
             resj += "Hasil pencarianmu max 15\n"
